@@ -1,0 +1,16 @@
+:root {
+    --color-white: rgba(255, 255, 255, 0.87);
+    --color-black: #242424;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+    color: var(--color-white);
+    background-color: var(--color-black);
+}
